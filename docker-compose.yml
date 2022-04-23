@@ -13,8 +13,7 @@ services:
     volumes:
       - "~/data/mysql_data:/var/lib/mysql"
     networks:
-      my-net:
-        ipv4_address: 172.21.0.2
+      - my-net:
 
 networks:
   my-net:
