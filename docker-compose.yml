@@ -13,7 +13,7 @@ services:
     volumes:
       - "~/data/mysql_data:/var/lib/mysql"
     networks:
-      - my-net:
+      - my-net
 
 networks:
   my-net:
